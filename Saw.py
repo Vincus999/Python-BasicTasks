@@ -1,6 +1,6 @@
 import turtle
 
-# 2 Saw
+# Saw
 
 def saw():
     t = turtle.Turtle()
