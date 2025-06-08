@@ -1,5 +1,5 @@
 
-#Pine tree
+# Pine tree
 
 def pine_tree(base_stars):
     rows = (base_stars + 1) // 2
