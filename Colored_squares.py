@@ -1,6 +1,6 @@
 import turtle
 
-#Colored square with another colored square
+# Colored square with another colored square
 
 def squares(t, length, color):
     t.begin_fill()
