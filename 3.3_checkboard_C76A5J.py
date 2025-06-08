@@ -1,6 +1,6 @@
 import turtle
 
-#5 3x3 checkboard
+# 8x8 checkboard
 def draw_square(t, size, color):
     t.begin_fill()
     t.fillcolor(color)
@@ -18,8 +18,8 @@ def checkboard():
     start_x = -square_size * 1.5
     start_y = square_size * 1.5
 
-    for row in range(3):
-        for col in range(3):
+    for row in range(8):
+        for col in range(8):
             t.penup()
             t.goto(start_x + col * square_size, start_y - row * square_size)
             t.pendown()
