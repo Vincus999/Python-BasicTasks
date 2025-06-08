@@ -1,6 +1,6 @@
 import turtle
 
-#4. Hungarian flag
+# Hungarian flag
 def hungary_flag():
     t = turtle.Turtle()
     t.speed(5)
