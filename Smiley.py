@@ -1,7 +1,7 @@
 import turtle
 
 
-# 1 Smiley with a curved, filled mouth
+# Smiley with a curved, filled mouth
 
 def smiley():
     screen = turtle.Screen()
