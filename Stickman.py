@@ -1,6 +1,6 @@
 import turtle
 
-#3. Stickman
+# Stickman
 def stickman():
     t = turtle.Turtle()
     t.speed(5)
