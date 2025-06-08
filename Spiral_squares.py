@@ -1,7 +1,7 @@
 import turtle
 import random
 
-#Spiral colored squares
+# Spiral colored squares
 def spiral_squares():
     t = turtle.Turtle()
     t.speed(10)
