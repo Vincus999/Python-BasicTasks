@@ -2,6 +2,7 @@
 import requests
 from collections import defaultdict
 import xml.etree.ElementTree as ET
+import matplotlib.pyplot as plt
 
 # Define the base URL for E-utilities
 BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
@@ -75,3 +76,4 @@ if ids:
     plot_publications_per_year(years)
 else:
     print("No results found.")
+
